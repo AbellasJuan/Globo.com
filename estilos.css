@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+
+body {
+  font-family: "Open Sans";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.barra-topo {
+  position: relative;
+  height: 103px;
+  width: 100%;
+  border-bottom: solid 1px #e5e5e5;
+}
+
+.conteudo {
+  position: absolute;
+}
+
+.brilho:hover {
+  filter: brightness(1.2);
+}
+
+.caixa-dos-itens-topo {
+  display: flex;
+  align-items: center;
+  height: 103px;
+  width: 100%;
+  letter-spacing: -0.8px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.imagem-da-globo img {
+  max-width: 96.5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.g1 {
+  margin-left: 25px;
+  color: #a80001;
+}
+
+.ge {
+  margin-left: 25px;
+  color: #06aa48;
+}
+
+.gshow {
+  margin-left: 25px;
+  color: #ff7f00;
+}
+
+.tech {
+  margin-left: 25px;
+  color: #666666;
+}
+
+.vídeos {
+  margin-left: 25px;
+  color: #0769de;
+}
+
+.corpo-das-noticias {
+  display: flex;
+  margin-top: 39.5px;
+}
+
+.primeira-coluna {
+  margin-bottom: 40px;
+  padding-right: 37px;
+  border-right: solid 1px #e5e5e5;
+}
+
+.caixa-mae-primeira-reportagem {
+  width: 558px;
+  padding-bottom: 13.5px;
+}
+
+.reportagem-stf {
+  line-height: 58px;
+  font-size: 52px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  color: #cd150b;
+}
+
+.sub-sem-aras {
+  margin-bottom: 10px;
+  margin-top: 27.5px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: -0.6px;
+  color: #cd150b;
+}
+
+.caixa-mae-segunda-reportagem {
+  width: auto;
+  padding-top: 24px;
+  border-top: solid 1px #e5e5e5;
+  border-bottom: solid 1px #e5e5e5;
+
+  padding-bottom: 20.5px;
+
+  display: flex;
+}
+
+.reportagem-doutor img {
+  width: 171px;
+  height: 96px;
+  border-radius: 4px;
+}
+
+.titulo-doutor {
+  padding-top: 8.5px;
+  width: 174px;
+  height: 84px;
+  font-weight: bold;
+  font-size: 21.5px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #cd150b;
+}
+
+.sub-doutor {
+  padding-top: 3px;
+  width: 174px;
+  height: 42.5px;
+  font-size: 15.5px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #cd150b;
+}
+
+.reportagem-libano-detem {
+  margin: 0 24px 0 24px;
+}
+
+.reportagem-libano-detem img {
+  width: 171px;
+  height: 95.5px;
+  border-radius: 4px;
+}
+
+.libano-detem-titulo {
+  padding-top: 8.5px;
+  width: 174px;
+  height: 84px;
+  font-weight: bold;
+  font-size: 21.5px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #cd150b;
+}
+
+.libano-detem-sub {
+  padding-top: 3px;
+  width: 174px;
+  height: 42.5px;
+  font-size: 15.5px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #cd150b;
+}
+
+.reportagem-libano-mae img {
+  width: 171px;
+  height: 95.5px;
+  border-radius: 4px;
+}
+
+.libano-mae-titulo {
+  padding-top: 8.5px;
+  width: 174px;
+  height: 84px;
+  font-weight: bold;
+  font-size: 21.5px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #cd150b;
+}
+
+.libano-mae-sub {
+  padding-top: 3px;
+  width: 174px;
+  height: 42.5px;
+  font-size: 15.5px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #cd150b;
+}
+
+.caixa-mae-terceira-reportagem {
+  padding-top: 22.5px;
+  width: 558px;
+  display: flex;
+}
+
+.titulo-2bi {
+  width: 174px;
+  height: 84px;
+  font-weight: bold;
+  font-size: 21.5px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #cd150b;
+}
+
+.sub-2bi {
+  width: 174px;
+  height: 42.5px;
+  font-size: 15.5px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #cd150b;
+}
+
+.reportagem-proibe {
+  padding: 0 22px 0 22px;
+}
+
+.titulo-proibe {
+  width: 174px;
+  height: 84px;
+  font-weight: bold;
+  font-size: 21.5px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #cd150b;
+}
+
+.sub-proibe {
+  width: 174px;
+  height: 42.5px;
+  font-size: 15.5px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #cd150b;
+}
+
+.titulo-sp {
+  width: 174px;
+  height: 84px;
+  font-weight: bold;
+  font-size: 21.5px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #cd150b;
+}
+
+.sub-sp {
+  width: 174px;
+  height: 42.5px;
+  font-size: 15.5px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #cd150b;
+}
+
+.segunda-coluna {
+  width: 265px;
+  padding-left: 36px;
+}
+
+.reportagem-brasileirao img {
+  width: 219px;
+  height: 122px;
+  border-radius: 4px;
+}
+
+.titulo-brasileirao {
+  margin-top: 8px;
+  width: 207px;
+  height: 84px;
+  font-weight: bold;
+  font-size: 21.5px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #06aa48;
+}
+
+.sub-brasileirao {
+  width: 219.5px;
+  height: 42.5px;
+  font-size: 15.5px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #06aa48;
+}
+
+.reportagem-cavani img {
+  margin-top: 17px;
+  width: 219px;
+  height: 121px;
+  border-radius: 4px;
+}
+
+.titulo-cavani {
+  margin-top: 16px;
+  width: 219.5px;
+  height: 60.5px;
+  font-weight: bold;
+  font-size: 21.5px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #06aa48;
+}
+
+.titulo-globo {
+  margin-top: 30.5px;
+  width: 219.5px;
+  height: 131.5px;
+  font-weight: bold;
+  font-size: 21.5px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #06aa48;
+}
+
+.sub-globo {
+  margin-top: 5.5px;
+  width: 219.5px;
+  height: 42.5px;
+  font-size: 15.5px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #06aa48;
+}
+
+.terceira-coluna {
+  padding-left: 36px;
+  margin-bottom: 40px;
+  border-left: solid 1px #e5e5e5;
+}
+
+.reportagem-jo img {
+  padding-bottom: 8.5px;
+  width: 219px;
+  height: 122px;
+  border-radius: 4px;
+}
+
+.titulo-jo {
+  width: 207px;
+  height: 84px;
+  font-weight: bold;
+  font-size: 21.5px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #ff8203;
+}
+
+.sub-jo1 {
+  width: 219.5px;
+  height: 26.5px;
+  font-size: 15.5px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #ff8203;
+}
+
+.sub-jo2 {
+  width: 219.5px;
+  height: 26.5px;
+  font-size: 15.5px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #ff8203;
+}
+
+.titulo-tereza {
+  width: 207px;
+  height: 47.5px;
+  margin-top: 33px;
+  font-weight: bold;
+  font-size: 21.5px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #ff8203;
+}
+
+.sub-tereza1 {
+  margin-top: 14px;
+  font-size: 15.5px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #ff8203;
+}
+
+.sub-tereza2 {
+  margin-top: 6px;
+  font-size: 15.5px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+  color: #ff8203;
+}
+
+.reportagem-bruno img {
+  margin-top: 40px;
+  width: 219px;
+  height: 121px;
+  border-radius: 4px;
+}
+
+.titulo-bruno {
+  margin-top: 9px;
+  width: 207px;
+  height: 84px;
+  font-weight: bold;
+  font-size: 21.5px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+  color: #ff8203;
+}
+
+.imgagens-efeito:hover {
+  filter: brightness(0.8);
+}
